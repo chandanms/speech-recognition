@@ -15,7 +15,7 @@ pip3 install -r requirements.txt
 
 ### Training
 
-The training saves the model in the directory to use for inference and testing. I have used all of the data to split it to train and validation. 
+The training saves the model in the directory to use for inference and testing. I have used all of the data to split it to train and validation. Training first saves the labels as numpy files to avoid calculating the mfcc repeatedly. Then it is loaded and trained.  
 
 python3 train.py  
 
@@ -41,7 +41,7 @@ I got an acuracy of 95% on testing.
 
 ## Contacts
 
-Email - mschandan96@gmail.com
+Email - mschandan96@gmail.com  
 Phone number - 9480118442
 
 
