@@ -33,7 +33,7 @@ python3 inference.py -a path/to/audio/file
 
 ### Testing
 
-The dataset has the list of audios to be tested in testing_list.txt. The testing of the saved model can be run by, 
+The dataset has the list of audios to be tested in testing_list.txt. Currently it runs on trained_model.h5, if you want to run the test on your trained model, change the name of the model in code to the same. Run the test by,    
 
 python3 test.py
 
