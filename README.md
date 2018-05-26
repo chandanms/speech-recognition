@@ -21,7 +21,7 @@ python3 train.py
 
 My training results,  
 
-![alt-text](https://raw.githubusercontent.com/chandanms/apeech-recognition/blob/master/Figure_1.png)
+![alt-text](https://raw.githubusercontent.com/chandanms/speech-recognition/blob/master/Figure_1.png)
 
 
 ### Inference
