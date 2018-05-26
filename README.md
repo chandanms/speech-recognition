@@ -5,7 +5,7 @@ Problem statement - Contains a few informational files and a folder of audio fil
 ## My approach to the problem
 
 I did quite a bit research on the topic and came up with the model that first converts the audio clip into a fixed size. The method used to do this is Mel-frequency cepstral coefficients (MFCCs). This vectors are treated as input to the Convolutional Neural Network (CNN). All the audios belonging to 10 labels are converted into numpy arrays and others are categorized as label 'unknown'. 
-I coldn't find the audio clips for the label 'silent' so I excluded that from my training.  
+I couldn't find the audio clips for the label 'silent' so I excluded that from my training.  
 
 ## Getting started
 
