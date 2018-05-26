@@ -37,7 +37,7 @@ def save_data_to_array(path=DATA_PATH, max_pad_len=11):
 			unknown_mfcc_vectors.append(mfcc)
 	np.save('unknown' + '.npy', unknown_mfcc_vectors)
 
-#save_data_to_array()
+save_data_to_array() #Comment this out if the numpy arrays are already saved 
 
 def get_labels(path=DATA_PATH):
     labels = os.listdir(path)
