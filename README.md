@@ -15,15 +15,34 @@ pip3 install -r requirements.txt
 
 ### Training
 
-The training saves the model in the directory to use for inference and testing.  
+The training saves the model in the directory to use for inference and testing. I have used all of the data to split it to train and validation. 
 
 python3 train.py  
 
-My training results,  
+My training results after 50 epochs,    
 
 ![alt-text](https://raw.githubusercontent.com/chandanms/speech-recognition/master/Figure_1.png)
+![alt-text](https://raw.githubusercontent.com/chandanms/speech-recognition/master/Figure_2.png)
 
 
 ### Inference
 
-To inference on a single audio clip using 
+To inference on a single audio clip using pretrained model,
+
+python3 inference.py -a path/to/audio/file
+
+### Testing
+
+The dataset has the list of audios to be tested in testing_list.txt. The testing of the saved model can be run by, 
+
+python3 test.py
+
+I got an acuracy of 95% on testing.  
+
+## Contacts
+
+Email - mschandan96@gmail.com
+Phone number - 9480118442
+
+
+
