@@ -1,0 +1,6 @@
+numpy
+librosa
+tensorflow-cpu
+keras
+sklearn
+argparse
