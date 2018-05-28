@@ -1,6 +1,6 @@
 numpy
 librosa
-tensorflow-cpu
+tensorflow
 keras
 sklearn
 argparse
